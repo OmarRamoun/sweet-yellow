@@ -3,11 +3,11 @@ import Modal from "react-modal";
 import Index from "../../components/about/index";
 
 const heroContent = {
-  heroImage: "img/hero/dark.jpg",
-  heroMobileImage: "img-mobile",
-  heroTitleName: "steve milner",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
+  heroImage: "img/hero/darwin.jpg",
+  heroMobileImage: "darwin",
+  heroTitleName: "Ramoun",
+  heroDesignation: "front-end engineer",
+  heroDescriptions: `I'm a front‑end developer (with REACT experience) focused on
   crafting clean & user‑friendly experiences, I am passionate about
   building excellent software that improves the lives of those
   around me.`,
