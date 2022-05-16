@@ -1,5 +1,6 @@
 {
-  "name": "tunis",
+  "homepage": "http://BerianaAvery.github.io",
+  "name": "ramoun",
   "version": "1.1.1",
   "private": true,
   "dependencies": {
@@ -26,6 +27,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -50,6 +53,7 @@
     ]
   },
   "devDependencies": {
-    "direction-reveal": "^2.0.2"
+    "direction-reveal": "^2.0.2",
+    "gh-pages": "^4.0.0"
   }
 }
