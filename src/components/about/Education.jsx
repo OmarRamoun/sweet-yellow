@@ -2,25 +2,18 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2015",
+    year: "2020",
     degree: "ENGINEERING DEGREE",
-    institute: "OXFORD UNIVERSITY",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    institute: "Alexandria UNIVERSITY",
+    details: `Graduated with a Bachelor Degree in Computer Engineering from Alexandria University.`,
   },
   {
-    year: "2012",
-    degree: "MASTER DEGREE",
-    institute: "KIEV UNIVERSITY",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
-  },
-  {
-    year: "2009",
-    degree: "BACHELOR DEGREE ",
-    institute: "TUNIS HIGH SCHOOL",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "2021",
+    degree: "Full-Stack Web Development",
+    institute: "MICROVERSE",
+    details: `Spent 1800+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects in Ruby, Rails, JavaScript, React, and Redux.
+    Developed skills in remote pair-programming, using GitHub, industry standard GitFlow, and daily stand-ups to communicate and collaborate
+    with international remote developers`,
   },
 ];
 
