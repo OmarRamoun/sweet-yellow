@@ -64,7 +64,7 @@ const ModalFourContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="https://github.com/gabyse1/space-travel/raw/dev/st-screenshot-desktop.png" alt="Portolio" />
+        <img src="img/projects/projects/space_earth.png" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

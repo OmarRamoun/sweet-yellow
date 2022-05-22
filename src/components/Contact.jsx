@@ -4,6 +4,10 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
 
+  const [isSubmitted, setIsSubmitted] = React.useState(false);
+  const [resultMsg, setResultMsg] = React.useState("");
+  const [resultIcon, setResultIcon] = React.useState("");
+
   const {
     register,
     handleSubmit,
@@ -26,11 +30,17 @@ const Contact = () => {
       templateParams,
       "6o8QJclNxHb58IhrY"
     )
-    .then((response) => {
-       console.log('SUCCESS!', response.status, response.text);
-    }, function(error) {
-       console.log('FAILED...', error);
-    });
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        setResultMsg("Your message has been sent successfully!");
+        setResultIcon("fa-check");
+        setIsSubmitted(true);
+      }, function (error) {
+        console.log('FAILED...', error);
+        setResultMsg("Your message has not been sent. Please try again later.");
+        setResultIcon("fa-times");
+        setIsSubmitted(false);
+      });
   };
 
   return (
@@ -106,14 +116,44 @@ const Contact = () => {
           </div>
           {/* End .col */}
 
-          <div className="col-12">
+          <div className="col-12 d-flex gap-1 align-items-center">
             <button type="submit" className="button">
               <span className="button-text">Send Message</span>
               <span className="button-icon fa fa-send"></span>
             </button>
+            {isSubmitted && (
+              <div
+                className="alert alert-success mt-3"
+                style={{
+                  borderRadius: "50px",
+                  marginLeft: "80px",
+                  paddingBlock: "16px",
+                  background: "transparent",
+                  color: "#fff",
+                  borderColor: "#ffb400"
+                }}
+              >
+                <i style={{color: "#ffb400", marginRight: "12px", fontSize: "18px"}} className={`fa ${resultIcon}`}></i> {resultMsg}
+              </div>
+            )}
+            {resultMsg && !isSubmitted && (
+              <div
+                className="alert alert-danger mt-4"
+                data-aos="fade-top"
+                data-aos-duration="1200"
+                data-aos-delay="0"
+                style={{
+                  borderRadius: "50px",
+                  marginLeft: "80px"
+                }}
+              >
+                <i className={`fa ${resultIcon}`}></i> {resultMsg}
+              </div>
+            )}
           </div>
           {/* End .col */}
         </div>
+
       </form>
 
       {/* End contact */}

@@ -5,15 +5,14 @@ const educationContent = [
     year: "2020",
     degree: "ENGINEERING DEGREE",
     institute: "Alexandria UNIVERSITY",
-    details: `Graduated with a Bachelor Degree in Computer Engineering from Alexandria University.`,
+    details: ['Graduated with a Bachelor Degree in Computer Engineering from Alexandria University.'],
   },
   {
     year: "2021",
     degree: "Full-Stack Web Development",
     institute: "MICROVERSE",
-    details: `Spent 1800+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects in Ruby, Rails, JavaScript, React, and Redux.
-    Developed skills in remote pair-programming, using GitHub, industry standard GitFlow, and daily stand-ups to communicate and collaborate
-    with international remote developers`,
+    details: ['Spent 1800+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects in Ruby, Rails, JavaScript, React, and Redux.',
+    'Developed skills in remote pair-programming, using GitHub, industry standard GitFlow, and daily stand-ups to communicate and collaborate with international remote developers']
   },
 ];
 
@@ -30,7 +29,11 @@ const Education = () => {
             {val.degree}
             <span className="place open-sans-font">{val.institute}</span>
           </h5>
-          <p className="open-sans-font">{val.details}</p>
+          {
+            val.details.map((val, i) => (
+              <p className="mb-3" key={i}> - {val}</p>
+            ))
+          }
         </li>
       ))}
     </ul>

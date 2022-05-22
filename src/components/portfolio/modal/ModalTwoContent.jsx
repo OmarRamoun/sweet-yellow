@@ -64,7 +64,7 @@ const ModalTwoContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="https://github.com/MrRamoun/Wonka-Conference/raw/develop/images/app_screenshot.png" alt="Portolio" />
+        <img src="img/projects/projects/wonka.png" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

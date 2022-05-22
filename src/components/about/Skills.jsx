@@ -1,16 +1,16 @@
 import React from "react";
 
 const skillsContent = [
-  { skillClass: "p25", icon: "fa-brands fa-html5", skillPercent: "25", skillName: "HTML" },
+  { skillClass: "p25", icon: "fa-brands fa-html5", skillPercent: "25", skillName: "HTML5" },
+  { skillClass: "p45", icon: "fa-brands fa-react", skillPercent: "45", skillName: "REACT" },
+  { skillClass: "p65", icon: "fa-brands fa-t", skillPercent: "65", skillName: "TYPESCRIPT" },
   { skillClass: "p89", icon: "fa-brands fa-js", skillPercent: "89", skillName: "JAVASCRIPT" },
-  { skillClass: "p70", icon: "fa-brands fa-css3", skillPercent: "70", skillName: "CSS" },
+  { skillClass: "p70", icon: "fa-brands fa-css3", skillPercent: "70", skillName: "CSS3" },
   { skillClass: "p66", icon: "fa-brands fa-python", skillPercent: "66", skillName: "PYTHON" },
   { skillClass: "p66", icon: "fa-regular fa-c", skillPercent: "66", skillName: "C++" },
   { skillClass: "p66", icon: "fa-regular fa-c", skillPercent: "66", skillName: "C#" },
   { skillClass: "p95", icon: "fa-brands fa-vuejs", skillPercent: "95", skillName: "VUE" },
   { skillClass: "p50", icon: "fa-regular fa-diagram-project", skillPercent: "50", skillName: "GRAPHQL" },
-  { skillClass: "p65", icon: "fa-brands fa-t", skillPercent: "65", skillName: "TYPESCRIPT" },
-  { skillClass: "p45", icon: "fa-brands fa-react", skillPercent: "45", skillName: "REACT" },
 ];
 
 const Skills = () => {

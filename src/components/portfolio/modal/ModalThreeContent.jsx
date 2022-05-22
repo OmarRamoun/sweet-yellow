@@ -64,7 +64,7 @@ const ModalThreeContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="https://github.com/MrRamoun/corona/raw/develop/app_screenshot-2.png" alt="Portolio" />
+        <img src="img/projects/projects/corona.png" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>
