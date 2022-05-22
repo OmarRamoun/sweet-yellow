@@ -1,3 +1,5 @@
+import { toHaveAttribute } from "@testing-library/jest-dom/dist/matchers";
+import { getDefaultNormalizer } from "@testing-library/react";
 import React from "react";
 import Achievements from "./Achievements";
 import Education from "./Education";
@@ -15,28 +17,19 @@ const index = () => {
           <div className="col-xl-6 col-lg-5 col-12">
             <div className="row">
               <div className="col-12">
-                <h3 className="text-uppercase custom-title mb-0 ft-wt-600">
-                  personal infos
+                <h3 className="dashed text-capitalize custom-title mb-0 ft-wt-600">
+                  personal info
                 </h3>
               </div>
               {/* End .col */}
-
-              <div className="col-12 d-block d-sm-none">
-                <img
-                  src="img/hero/img-mobile.jpg"
-                  className="img-fluid main-img-mobile"
-                  alt="about avatar"
-                />
-              </div>
-              {/* image for mobile menu */}
 
               <div className="col-12">
                 <PersonalInfo />
               </div>
               {/* End personal info */}
 
-              <div className="col-12 mt-1">
-                <a className="button" href="img/cv.webp" download>
+              <div className="col-12 mt-4">
+                <a className="button" href="../../assets/pdf/omar_ramoun_resume.pdf" download>
                   <span className="button-text">Download CV</span>
                   <span className="button-icon fa fa-download"></span>
                 </a>

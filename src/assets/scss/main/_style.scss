@@ -640,7 +640,8 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   padding-left: 70px;
 }
 
-.home .home-details h1:before {
+.home .home-details h1:before,
+.dashed::before {
   content: "";
   position: absolute;
   left: 0;

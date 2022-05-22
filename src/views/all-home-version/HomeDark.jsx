@@ -4,7 +4,7 @@ import Hero from "../../components/hero/Hero";
 import Index from "../../components/about/index";
 import Address from "../../components/Address";
 import Portfolio from "../../components/portfolio/Portfolio";
-import Blog from "../../components/blog/Blog";
+// import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Social from "../../components/Social";
 
@@ -13,17 +13,17 @@ const menuItem = [
   { icon: "fa-user", menuName: "About" },
   { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
-  { icon: "fa-comments", menuName: "Blog" },
+  // { icon: "fa-comments", menuName: "Blog" },
 ];
 
 const HomeDark = () => {
   return (
     <div className="yellow">
-      <div className="demo-sticker">
+      {/* <div className="demo-sticker">
         <a href="/home-light">
           <i className="fa fa-lightbulb-o" aria-hidden="true"></i>
         </a>
-      </div>
+      </div> */}
       <Tabs>
         <div className="header">
           <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
@@ -54,8 +54,8 @@ const HomeDark = () => {
           {/* About Content Starts */}
           <TabPanel className="about">
             <div data-aos="fade-up" data-aos-duration="1200">
-              <div className="title-section text-left text-sm-center">
-                <h1>
+              <div className="title-section text-center">
+                <h1 className="text-center">
                   ABOUT <span>ME</span>
                 </h1>
                 <span className="title-bg">Resume</span>
@@ -139,7 +139,7 @@ const HomeDark = () => {
           {/* Contact Content Ends */}
 
           {/* Blog Content Starts */}
-          <TabPanel className="blog">
+          {/* <TabPanel className="blog">
             <div
               className="title-section text-left text-sm-center "
               data-aos="fade-up"
@@ -156,12 +156,12 @@ const HomeDark = () => {
               data-aos-duration="1200"
             >
               {/*  Articles Starts  */}
-              <div className="row pb-50">
+              {/* <div className="row pb-50">
                 <Blog />
-              </div>
+              </div> */}
               {/* Articles Ends */}
-            </div>
-          </TabPanel>
+            {/* </div>
+          </TabPanel> */}
           {/* Blog Content Ends */}
         </div>
       </Tabs>
