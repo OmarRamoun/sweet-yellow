@@ -47,7 +47,7 @@ const Portfolio = () => {
               data-aos-delay="0"
             >
               <figure onClick={toggleModalOne}>
-                <img style={{ height: "230px", objectFit: "cover" }} src="https://github.com/MrRamoun/serra/raw/develop/screenshots/screenshot.png" alt="Portolio" />
+                <img style={{ height: "230px", objectFit: "cover" }} src="img/projects/projects/serra.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Synergy Of Serra</span>
                 </div>
@@ -84,7 +84,7 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalTwo}>
-                <img style={{ height: "230px", objectFit: "cover" }} src="https://github.com/MrRamoun/Wonka-Conference/raw/develop/images/app_screenshot.png" alt="Portolio" />
+                <img style={{ height: "230px", objectFit: "cover" }} src="img/projects/projects/wonka.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Wonka Conference</span>
                 </div>
@@ -121,7 +121,7 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalThree}>
-                <img style={{ height: "230px", objectFit: "cover" }} src="https://github.com/MrRamoun/corona/raw/develop/app_screenshot-2.png" alt="Portolio" />
+                <img style={{ height: "230px", objectFit: "cover" }} src="img/projects/projects/corona.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Covid-19 Monitor</span>
                 </div>
@@ -158,7 +158,7 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalFour}>
-                <img style={{ height: "230px", objectFit: "cover" }} src="https://github.com/gabyse1/space-travel/raw/dev/st-screenshot-desktop.png" alt="Portolio" />
+                <img style={{ height: "230px", objectFit: "cover" }} src="img/projects/projects/space_earth.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Space-Earth</span>
                 </div>
@@ -196,7 +196,7 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalFive}>
-                <img style={{ height: "230px", objectFit: "cover" }} src="https://github.com/MrRamoun/Awesome-Books/raw/main/screenshot-desktop.png" alt="Portolio" />
+                <img style={{ height: "230px", objectFit: "cover" }} src="img/projects/projects/awesome.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Awesome Books</span>
                 </div>
@@ -238,7 +238,7 @@ const Portfolio = () => {
               data-aos-delay="0"
             >
               <figure onClick={toggleModalOne}>
-                <img style={{ height: "230px", objectFit: "cover" }} src="https://github.com/MrRamoun/serra/raw/develop/screenshots/screenshot.png" alt="Portolio" />
+                <img style={{ height: "230px", objectFit: "cover" }} src="img/projects/projects/serra.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Synergy Of Serra</span>
                 </div>
@@ -274,7 +274,7 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalThree}>
-                <img style={{ height: "230px", objectFit: "cover" }} src="https://github.com/MrRamoun/corona/raw/develop/app_screenshot-2.png" alt="Portolio" />
+                <img style={{ height: "230px", objectFit: "cover" }} src="img/projects/projects/corona.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Covid-19 Monitor</span>
                 </div>
@@ -311,7 +311,7 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalFour}>
-                <img style={{ height: "230px", objectFit: "cover" }} src="https://github.com/gabyse1/space-travel/raw/dev/st-screenshot-desktop.png" alt="Portolio" />
+                <img style={{ height: "230px", objectFit: "cover" }} src="img/projects/projects/space_earth.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Space-Earth</span>
                 </div>
@@ -353,7 +353,7 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalTwo}>
-                <img style={{ height: "230px", objectFit: "cover" }} src="https://github.com/MrRamoun/Wonka-Conference/raw/develop/images/app_screenshot.png" alt="Portolio" />
+                <img style={{ height: "230px", objectFit: "cover" }} src="img/projects/projects/wonka.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Wonka Conference</span>
                 </div>
@@ -389,7 +389,7 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalFive}>
-                <img style={{ height: "230px", objectFit: "cover" }} src="https://github.com/MrRamoun/Awesome-Books/raw/main/screenshot-desktop.png" alt="Portolio" />
+                <img style={{ height: "230px", objectFit: "cover" }} src="img/projects/projects/awesome.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Awesome Books</span>
                 </div>

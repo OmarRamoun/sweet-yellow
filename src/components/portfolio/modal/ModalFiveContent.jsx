@@ -64,7 +64,7 @@ const ModalFiveContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="https://github.com/MrRamoun/Awesome-Books/raw/main/screenshot-desktop.png" alt="Portolio" />
+        <img src="img/projects/projects/awesome.png" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>
