@@ -25,10 +25,10 @@ const Contact = () => {
     };
 
     emailjs.send(
-      "service_hlfugiw",
-      "template_h37weqi",
+      "service_5mp1nyl",
+      "template_5kcm5qt",
       templateParams,
-      "6o8QJclNxHb58IhrY"
+      "ZJl9MI8acOkyLLo-3"
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);

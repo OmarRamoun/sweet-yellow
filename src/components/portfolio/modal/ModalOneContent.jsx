@@ -49,7 +49,7 @@ const ModalOneContent = () => {
               <span className="project-label">Source </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://github.com/MrRamoun/serra"
+                  href="https://github.com/OmarRamoun/serra"
                   target="_blank"
                   rel="noreferrer"
                 >

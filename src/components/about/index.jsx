@@ -29,7 +29,7 @@ const index = () => {
               {/* End personal info */}
 
               <div className="col-12 mt-4">
-                <a className="button" href="../../assets/pdf/omar_ramoun_resume.pdf" download>
+                <a className="button" href="pdf/omar_ramoun_resume.pdf" download>
                   <span className="button-text">Download CV</span>
                   <span className="button-icon fa fa-download"></span>
                 </a>
