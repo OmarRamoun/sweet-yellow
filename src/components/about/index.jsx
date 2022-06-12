@@ -5,6 +5,7 @@ import Achievements from "./Achievements";
 import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
+import Social from "../Social";
 import Skills from "./Skills";
 
 const index = () => {
@@ -28,11 +29,25 @@ const index = () => {
               </div>
               {/* End personal info */}
 
-              <div className="col-12 mt-4">
+              <div className="col-12 mt-4 btn-container d-flex align-items-start gap-4 text-light home-btn-container flex-column">
                 <a className="button" href="pdf/omar_ramoun_resume.pdf" download>
                   <span className="button-text">Download CV</span>
                   <span className="button-icon fa fa-download"></span>
                 </a>
+                <Social
+                classNames="d-flex align-items-center gap-3 mb-0 fs-5"
+                liStyle={{
+                  alignSelf: "center",
+                  height: "30px",
+                  width: "30px",
+                  borderRadius: "50%",
+                  border: "1px solid #fff",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  padding: "1.3rem",
+                }}
+              />
               </div>
               {/* End download button */}
             </div>

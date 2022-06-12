@@ -2,8 +2,7 @@ import React from "react";
 
 const personalInfoContent = [
   { meta: "Name", metaInfo: "Omar Ramoun" },
-  { meta: "Email", metaInfo: "ramoun@omarramoun.com" },
-  { meta: "phone", metaInfo: "+201095219204" },
+  { meta: "Email", metaInfo: "contact@omarramoun.com" },
   { meta: "Freelance", metaInfo: "Available" },
   { meta: "languages", metaInfo: "French, English, German" },
 ];
