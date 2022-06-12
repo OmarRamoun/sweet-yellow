@@ -1,0 +1,11 @@
+@media all and (max-width: 600px) {
+  div.home-btn-container {
+    flex-direction: column;
+  }
+}
+
+.home-btn-container ul li:hover {
+  background-color: hsla(0, 0%, 96%, 0.327);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}

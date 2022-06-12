@@ -13,12 +13,14 @@ const SocialShare = [
   { iconName: "fa fa-angellist", link: "https://angel.co/OmarRamoun" },
 ];
 
-const Social = () => {
+const Social = ({ classNames, liStyle }) => {
   return (
-    <ul className="social list-unstyled pt-1 mb-5">
+    <ul
+      className={`social list-unstyled pt-1 ${classNames}`}
+    >
       {SocialShare.map((val, i) => (
-        <li key={i}>
-          <a href={val.link} target="_blank" rel="noreferrer">
+        <li style={liStyle} key={i}>
+          <a style={{color: '#fff'}} href={val.link} target="_blank" rel="noreferrer">
             <i className={val.iconName}></i>
           </a>
         </li>

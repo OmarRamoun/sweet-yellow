@@ -11,13 +11,6 @@ const ModalTwoContent = () => {
           <h3>Wonka Conference</h3>
           <div className="row open-sans-font">
             <div className="col-12 col-sm-6 mb-2">
-              <i className="fa fa-file-text-o pr-2"></i>
-              <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Wonka Organization</span>
-            </div>
-            {/* End .col */}
-
-            <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Details </span>:{" "}
               <span className="ft-wt-600 uppercase">A website for the World Conference of family doctors.</span>
@@ -56,6 +49,13 @@ const ModalTwoContent = () => {
                   GitHub
                 </a>
               </span>
+            </div>
+            {/* End .col */}
+
+            <div className="col-12 col-sm-6 mb-2">
+              <i className="fa fa-file-text-o pr-2"></i>
+              <span className="project-label">Client </span>:{" "}
+              <span className="ft-wt-600 uppercase">Wonka Organization</span>
             </div>
             {/* End .col */}
           </div>

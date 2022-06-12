@@ -77,6 +77,43 @@ const Portfolio = () => {
             </li>
             {/* <!-- Portfolio sos Ends --> */}
 
+            {/* <!-- Portfolio rene Starts --> */}
+            <li
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="100"
+            >
+              <figure onClick={toggleModalFour}>
+                <img style={{ height: "230px", objectFit: "cover" }} src="img/projects/projects/rene.png" alt="Portolio" />
+                <div className="hover-content-wrapper">
+                  <span className="content-title">Rene</span>
+                </div>
+              </figure>
+
+              {/* Start ModalTwoContent */}
+              <Modal
+                isOpen={isOpen4}
+                onRequestClose={toggleModalFour}
+                contentLabel="My dialog"
+                className="custom-modal dark"
+                overlayClassName="custom-overlay dark"
+                closeTimeoutMS={500}
+              >
+                <div>
+                  <button className="close-modal" onClick={toggleModalFour}>
+                    <img src="/img/cancel.svg" alt="close icon" />
+                  </button>
+                  {/* End close icon */}
+
+                  <div className="box_inner portfolio">
+                    <ModalFourContent />
+                  </div>
+                </div>
+              </Modal>
+              {/* End  ModalTwoContent */}
+            </li>
+            {/* <!-- Portfolio rene Ends --> */}
+
             {/* <!-- Portfolio wonka Starts --> */}
             <li
               data-aos="fade-right"
@@ -150,44 +187,6 @@ const Portfolio = () => {
               {/* End  ModalTwoContent */}
             </li>
             {/* <!-- Portfolio covid Ends --> */}
-
-            {/* <!-- Portfolio space Starts --> */}
-            <li
-              data-aos="fade-right"
-              data-aos-duration="1200"
-              data-aos-delay="100"
-            >
-              <figure onClick={toggleModalFour}>
-                <img style={{ height: "230px", objectFit: "cover" }} src="img/projects/projects/space_earth.png" alt="Portolio" />
-                <div className=" hover-content-wrapper">
-                  <span className="content-title">Space-Earth</span>
-                </div>
-              </figure>
-
-              {/* Start ModalTwoContent */}
-              <Modal
-                isOpen={isOpen4}
-                onRequestClose={toggleModalFour}
-                contentLabel="My dialog"
-                className="custom-modal dark"
-                overlayClassName="custom-overlay dark"
-                closeTimeoutMS={500}
-              >
-                <div>
-                  <button className="close-modal" onClick={toggleModalFour}>
-                    <img src="/img/cancel.svg" alt="close icon" />
-                  </button>
-                  {/* End close icon */}
-
-                  <div className="box_inner portfolio">
-                    <ModalFourContent />
-                  </div>
-                </div>
-              </Modal>
-              {/* End  ModalTwoContent */}
-            </li>
-            {/* <!-- Portfolio space Ends --> */}
-
 
             {/* <!-- Portfolio awesome Starts --> */}
             <li
@@ -267,6 +266,42 @@ const Portfolio = () => {
               {/* End  ModalOneContent */}
             </li>
             {/* <!-- Portfolio sos Ends --> */}
+            {/* <!-- Portfolio rene Starts --> */}
+            <li
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="100"
+            >
+              <figure onClick={toggleModalFour}>
+                <img style={{ height: "230px", objectFit: "cover" }} src="img/projects/projects/rene.png" alt="Portolio" />
+                <div className="hover-content-wrapper">
+                  <span className="content-title">Rene</span>
+                </div>
+              </figure>
+
+              {/* Start ModalTwoContent */}
+              <Modal
+                isOpen={isOpen4}
+                onRequestClose={toggleModalFour}
+                contentLabel="My dialog"
+                className="custom-modal dark"
+                overlayClassName="custom-overlay dark"
+                closeTimeoutMS={500}
+              >
+                <div>
+                  <button className="close-modal" onClick={toggleModalFour}>
+                    <img src="/img/cancel.svg" alt="close icon" />
+                  </button>
+                  {/* End close icon */}
+
+                  <div className="box_inner portfolio">
+                    <ModalFourContent />
+                  </div>
+                </div>
+              </Modal>
+              {/* End  ModalTwoContent */}
+            </li>
+            {/* <!-- Portfolio rene Ends --> */}
             {/* <!-- Portfolio covid Starts --> */}
             <li
               data-aos="fade-right"

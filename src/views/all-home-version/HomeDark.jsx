@@ -122,7 +122,7 @@ const HomeDark = () => {
                   <Address />
                   {/* End Address */}
 
-                  <Social />
+                  <Social classNames="mb-5" />
                   {/* End Social */}
                 </div>
                 {/* Left Side Ends */}
