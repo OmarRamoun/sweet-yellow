@@ -8,19 +8,12 @@ const ModalFourContent = () => {
       <figure>
         {/* Project Details Starts */}
         <figcaption>
-          <h3>Space EArth</h3>
+          <h3>Rene</h3>
           <div className="row open-sans-font">
-            <div className="col-12 col-sm-6 mb-2">
-              <i className="fa fa-file-text-o pr-2"></i>
-              <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Hobby</span>
-            </div>
-            {/* End .col */}
-
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Details </span>:{" "}
-              <span className="ft-wt-600 uppercase">A webapp that offers users information about space travels classified between rockets, dragons, and missions.</span>
+              <span className="ft-wt-600 uppercase">A SaaS Project Management App Landing Website. The design is modern, beautiful and responsive. It displays your content nicely on Desktop, Laptop, iPad, iPhone, Android Mobile, and tablets.</span>
             </div>
             {/* End .col */}
 
@@ -36,11 +29,11 @@ const ModalFourContent = () => {
               <span className="project-label">Preview </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://spacetravelsgaby.herokuapp.com/"
+                  href="https://sea-turtle-app-ir2zt.ondigitalocean.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  space-earth@github
+                  Renesaas.com
                 </a>
               </span>
             </div>
@@ -49,7 +42,7 @@ const ModalFourContent = () => {
               <span className="project-label">Source </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://github.com/MrRamoun/space-earth"
+                  href="https://github.com/OmarRamoun/RENE"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -64,7 +57,7 @@ const ModalFourContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="img/projects/projects/space_earth.png" alt="Portolio" />
+        <img src="img/projects/projects/rene.png" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

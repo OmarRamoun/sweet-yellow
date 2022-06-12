@@ -11,13 +11,6 @@ const ModalThreeContent = () => {
           <h3>Covid19 - Tracker</h3>
           <div className="row open-sans-font">
             <div className="col-12 col-sm-6 mb-2">
-              <i className="fa fa-file-text-o pr-2"></i>
-              <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">freelance</span>
-            </div>
-            {/* End .col */}
-
-            <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Details </span>:{" "}
               <span className="ft-wt-600 uppercase">A covid-19 tracker that displays all today's statistics about confirmed cases, deaths, and recoveries for each country and by total.</span>
@@ -56,6 +49,13 @@ const ModalThreeContent = () => {
                   GitHub
                 </a>
               </span>
+            </div>
+            {/* End .col */}
+
+            <div className="col-12 col-sm-6 mb-2">
+              <i className="fa fa-file-text-o pr-2"></i>
+              <span className="project-label">Client </span>:{" "}
+              <span className="ft-wt-600 uppercase">freelance</span>
             </div>
             {/* End .col */}
           </div>

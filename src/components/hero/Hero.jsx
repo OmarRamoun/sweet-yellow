@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import Index from "../../components/about/index";
+import Social from "../../components/Social";
+import "./hero.css";
 
 const heroContent = {
   heroImage: "img/hero/darwin_center.jpg",
@@ -11,7 +13,7 @@ const heroContent = {
   crafting clean & user‑friendly experiences, I am passionate about
   building high-performing software that improves the lives of those
   around me.`,
-  heroBtn: "more about me",
+  heroBtn: "DOWNLOAD CV",
 };
 
 const Hero = () => {
@@ -26,9 +28,8 @@ const Hero = () => {
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
           style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + heroContent.heroImage
-            })`,
+            backgroundImage: `url(${process.env.PUBLIC_URL + heroContent.heroImage
+              })`,
           }}
         ></div>
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
@@ -43,46 +44,35 @@ const Hero = () => {
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
-            <button className="button" onClick={toggleModalOne}>
-              <span className="button-text">{heroContent.heroBtn}</span>
-              <span className="button-icon fa fa-arrow-right"></span>
-            </button>
+            <div className="btn-container d-flex align-items-center gap-4 text-light home-btn-container">
+              <a className="button" href="pdf/omar_ramoun_resume.pdf" download>
+                <span className="button-text">{heroContent.heroBtn}</span>
+                <span className="button-icon fa fa-download"></span>
+              </a>
+              <Social
+                classNames="d-flex align-items-center gap-3 mb-0 fs-5"
+                liStyle={{
+                  alignSelf: "center",
+                  height: "30px",
+                  width: "30px",
+                  borderRadius: "50%",
+                  border: "1px solid #fff",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  padding: "1.3rem",
+                }}
+              />
+            </div>
           </div>
         </div>
       </div>
       {/* End home-details-container */}
 
-      {/* Start Modal for About More */}
-      <Modal
-        isOpen={isOpen}
-        onRequestClose={toggleModalOne}
-        contentLabel="My dialog"
-        className="custom-modal dark hero"
-        overlayClassName="custom-overlay dark"
-        closeTimeoutMS={500}
-      >
-        <div>
-          <button className="close-modal" onClick={toggleModalOne}>
-            <img src="/img/cancel.svg" alt="close icon" />
-          </button>
-          {/* End close icon */}
-
-          <div className="box_inner about">
-            <div data-aos="fade-up" data-aos-duration="1200">
-              <div className="title-section text-left text-sm-center">
-                <h1>
-                  ABOUT <span>ME</span>
-                </h1>
-                <span className="title-bg">Resume</span>
-              </div>
-              {/* End title */}
-              <Index />
-            </div>
-          </div>
-        </div>
-        {/* End modal box news */}
-      </Modal>
-      {/* End  Modal for About More */}
+      {/* <div className="col-12 mt-4">
+        <a className="button" >
+        </a>
+      </div> */}
     </>
   );
 };
