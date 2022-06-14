@@ -41,7 +41,7 @@ const index = () => {
                   height: "30px",
                   width: "30px",
                   borderRadius: "50%",
-                  border: "1px solid #fff",
+                  border: "1px solid #ffb400",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
