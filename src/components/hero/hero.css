@@ -3,9 +3,12 @@
     flex-direction: column;
   }
 }
+.home-btn-container ul li {
+  background-color: #ffb3003c;
+  transition: all 0.5s ease-in-out;
+}
 
 .home-btn-container ul li:hover {
-  background-color: hsla(0, 0%, 96%, 0.327);
+  background-color: #ffb400;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
 }
